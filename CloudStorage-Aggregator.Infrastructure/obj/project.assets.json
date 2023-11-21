@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/donpat/Cloud_Storage_Aggregatore/CloudStorage_Aggregator/CloudStorage_Aggregator.csproj",
-      "projectName": "CloudStorage_Aggregator",
-      "projectPath": "/home/donpat/Cloud_Storage_Aggregatore/CloudStorage_Aggregator/CloudStorage_Aggregator.csproj",
+      "projectUniqueName": "/home/donpat/Cloud-Storage_Aggregator/CloudStorage-Aggregator.Infrastructure/CloudStorage-Aggregator.Infrastructure.csproj",
+      "projectName": "CloudStorage-Aggregator.Infrastructure",
+      "projectPath": "/home/donpat/Cloud-Storage_Aggregator/CloudStorage-Aggregator.Infrastructure/CloudStorage-Aggregator.Infrastructure.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/donpat/Cloud_Storage_Aggregatore/CloudStorage_Aggregator/obj/",
+      "outputPath": "/home/donpat/Cloud-Storage_Aggregator/CloudStorage-Aggregator.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"
@@ -55,9 +55,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
