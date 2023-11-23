@@ -1,16 +1,18 @@
 using System;
+using Google.Apis.Drive.v3;
+using System.Collections.Generic;
 
 namespace Models.UserCloudAcc
 {
 public class UserCloudAcc
 
 {
-public string CloudProviderId {get; set;} = Guid.NewGuid().ToString();
-public string UserEmail {get; set;}
-public string UserPassword {get; set;}
+ public string ClientId { get; set; }
+    public string ClientSecret { get; set; }
+    public string RedirectUri { get; set; }
+    public List<DriveService> DriveServices { get; set; } = new List<DriveService>();
 
 public string UserId {get; set;}
-
 
 }
 
